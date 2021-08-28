@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(mountains-6544522_1920.jpg);
+    overflow-x: hidden;
+}
+
+h1{
+    font: bold 5vw/100% arial, sans-serif;
+    position: relative;
+    top: 100px;
+    left: 130px;
+}
+
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+}
+
+div .aspecs{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.aspecs  div{
+   width: 300px;
+   height: 300px;
+   background-color: rgb(22, 22, 22);
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px 0px black;
+   color: transparent;
+   font-size: 2vw;
+   color: #0f6da1; 
+   font-weight: bold;
+   text-decoration: none;
+}
+
+ .aspecs a{
+    text-decoration: none;
+    color: #0f6da1; 
+} 
+
+.aspecs div:hover{
+    background-color: black;
+    color: rgb(67, 46, 255);
+    font-weight: bold;
+    transition: all 1.4s;
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.img1{
+    background-image: url(workspace-1280538_1920.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+
+.img2{
+    background-image: url(three-friends-traveling-by-car-and-having-fun.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+
+.img3{
+    background-image: url(young-pretty-joyful-brunette-woman-meditating-on-table-surround-work-stuff-and-flying-papers-cheerful-mood-taking-a-break-working-studying-relaxation-true-emotions.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+
+.img4{
+    background-image: url(education-day-assortment-close-up.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+
